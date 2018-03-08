@@ -29,7 +29,7 @@ class Main extends PluginBase {
         $ip = "example.com";
         $port = 19132;
         $query = Query::queryServer($ip, $port);
-        $this->getLogger()->info($query["motd"], $query["version"], $query["online"], $query["max"]);
+        $this->getLogger()->info($query["motd"] . PHP_EOL . $query["version"] . PHP_EOL . $query["online"] . PHP_EOL . $query["max"]);
     }
 }
 ```
