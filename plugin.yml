@@ -1,0 +1,9 @@
+name: QueryAPI
+description: Query Information from other servers with ease
+
+main: QueryAPI\Query
+version: 1.0
+api: [3.0.0-ALPHA10, 3.0.0-ALPHA11]
+
+author: Potatoe
+website: https://github.com/PotatoeTrainYT/QueryAPI/
