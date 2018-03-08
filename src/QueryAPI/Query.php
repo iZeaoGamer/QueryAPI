@@ -9,12 +9,7 @@ use pocketmine\plugin\PluginBase;
 class Query extends PluginBase {
 
     public function onEnable() : void {
-        $this->instance = $this;
         $this->getLogger()->info("QueryAPI Enabled");
-    }
-
-    public static function getInstance() {
-        return self::$instance;
     }
 
     public static function queryServer(string $ip, int $port, int $timeout = 4) {
